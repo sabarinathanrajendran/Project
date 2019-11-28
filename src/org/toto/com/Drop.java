@@ -29,7 +29,7 @@ public class Drop {
 		WebElement  sel=driver.findElement(By.xpath("//a[text()='COURSES']"));
 		Actions  acc=new Actions(driver);
 		acc.moveToElement(sel).perform();
-		
+		 //to check
 		
 		
 	WebElement  sel1=driver.findElement(By.xpath("//span[text()='Oracle Training ']"));
